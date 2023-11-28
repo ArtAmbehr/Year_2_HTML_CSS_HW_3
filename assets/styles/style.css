@@ -24,6 +24,10 @@
     font-weight: 400;
     }
 
+.body {
+    margin: 0;
+}    
+
 ul {
     padding: 0px;
 }
@@ -33,11 +37,12 @@ ul {
 }
 
 .menu {
+    margin: 0 auto; 
     display: flex;
     width: 1170px;
     height: 40px;
     /* flex-shrink: 0; */
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -73,6 +78,7 @@ ul {
 }
 
 .intro-title {
+    margin: 0;
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
@@ -82,6 +88,7 @@ ul {
 }
 
 .intro-text {
+    margin: 0;
     color: #888;
         /* font-family: Gilroy-Medium; */
         font-size: 20px;
@@ -109,7 +116,7 @@ ul {
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     border: none;
     /*Чтобы по краям кнопок не было серой окантовки*/
-    margin-bottom: 259px;
+    /* margin-bottom: 259px; */
     color: #FFF;
 
     font-family: Gilroy-Bold;
