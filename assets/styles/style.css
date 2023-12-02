@@ -41,9 +41,9 @@ ul {
     display: flex;
     width: 1170px;
     height: 40px;
-    /* flex-shrink: 0; */
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 84px;
 }
 
 .menu-list {
@@ -85,16 +85,16 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 17px;
 }
 
 .intro-text {
     margin: 0;
     color: #888;
-        /* font-family: Gilroy-Medium; */
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .intro-button-wrapper {
